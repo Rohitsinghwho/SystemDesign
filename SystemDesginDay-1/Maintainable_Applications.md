@@ -3,7 +3,7 @@
 
 ## what is system design or designing a system ?
 ```
-There are many tools like redis , mongo, postgres , aws etc. They all have different access patterns , different implemntation, different use case, different characterstics. But to develop a application all of those works as one unit. Figuring out which tool or access pattern or performance is best for our application according to the constraints is know is system design.
+There are many tools like redis , mongo, postgres , aws etc. They all have different access patterns , different implemntation, different use case, different characterstics. But to develop a application all of those works as one unit. Figuring out which tool or access pattern or performance is best for our application according to the constraints is know as system design.
 
 Also there are tools which have some similarities, for ex redis can be used as a data store and a messaging queue , kafka is messaging queue with database like durability guarantees.So when to use which is what system design is.
 
@@ -11,7 +11,7 @@ Also there are tools which have some similarities, for ex redis can be used as a
 
 ## Reliability
 
-Reliability menas the system should continue to work correctly(correctly can mean a lot here) even when things go wrong.
+Reliability means the system should continue to work correctly(correctly can mean a lot here) even when things go wrong.
 The things that can go wrong are called <strong>Fault,</strong> and systems that can anticapte faults and can cope with them are called <strong>fault-tolerant or resilient.</strong>
 
 <strong>Fault-tolerant</strong> systems does not mean we can tolerate every possible kind of faults, which in reality is not feasible.
@@ -43,7 +43,7 @@ But the limitation was , what if the whole machine(server) dies ? then indiviual
 
 #### Machine level redundancy 
 
-Now we have more servers , for example we have server A , server B ...server N. And a load balancer routes request to them. So if now the machine dies we have additional machine which can server the user and perform the intended task. That is called <strong>fault tolerance</strong>.
+Now we have more servers , for example we have server A , server B ...server N. And a load balancer routes request to them. So if now the machine dies we have additional machine which can serve the user and perform the intended task. That is called <strong>fault tolerance</strong>.
 So modern distributed approach's goal is to survive the loss of a machine and that is <strong>software fault tolerance.</strong> 
 
 
