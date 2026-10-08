@@ -1,8 +1,8 @@
 | Date       | Chapter in book | What I learnt today                                                                                                        |
 |------------|-----------------|----------------------------------------------------------------------------------------------------------------------------|
-| 2026-10-06 |   Chapter 1     | Leart about reliability and why a system should be relaible                                                                |
-| 2026-10-07 |                 |                     |
-| 2026-10-08 |                 |                     |
+| 2026-10-06 |   Chapter 1     | Learnt about reliability and why a system should be relaible                                                                |
+| 2026-10-07 | Chapter 1                 | Learnt about scalability ,load,performace.                     |
+| 2026-10-08 |   Chapter 1              |  Learnt about performance meterics and maintainence of a system.                   |
 | 2026-10-09 |                 |                     |
 | 2026-10-10 |                 |                     |
 | 2026-10-11 |                 |                     |
